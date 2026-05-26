@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer type="module"></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Cadastro de Contatos</h1>
+    <p>Informe os dados do contato.</p>
+
+    <div class="textos">
+
+      <div class="campo1">
+        <label></label>
+        <input type="text" id="nome" placeholder="Insira o Nome" />
+      </div>
+
+      <div class="campo2">
+        <label></label>
+        <input type="text" id="telefone" placeholder="Insira o Telefone" />
+      </div>
+
+      <div class="campo3">
+        <label></label>
+        <input type="text" id="foto" placeholder="Insira a Foto" />
+      </div>
+
+      <div class="campo4">
+        <label></label>
+        <input type="text" id="email" placeholder="Insira o Email" />
+      </div>
+
+      <div class="campo5">
+        <label></label>
+        <input type="text" id="endereco" placeholder="Insira o Endereço" />
+      </div>
+
+      <div class="campo6">
+        <label></label>
+        <input type="text" id="cidade" placeholder="Insira a Cidade" />
+      </div>
+
+    </div>
+
+    <button class="bt-cadastrar" id="btn">Cadastrar</button>
+
+    <div class="resultado">
+      <p class="resultado-titulo">Contatos Cadastrados</p>
+      <div class="tabela-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>Foto</th>
+              <th>Email</th>
+              <th>Endereço</th>
+              <th>Cidade</th>
+              <th>Editar</th>
+              <th>Excluir</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <button class="bt-editar">Editar</button>
+              </td>
+              <td>
+                <button class="bt-excluir">Excluir</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
